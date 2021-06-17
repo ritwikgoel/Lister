@@ -1,8 +1,15 @@
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-495.0" maxWidth="-686.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="686.0" style="-fx-background-color: #24bad1;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="-5.0" layoutY="-6.0" prefHeight="501.0" prefWidth="212.0" style="-fx-background-color: #1b9eb3;" />
+      <Button fx:id="btn" layoutX="349.0" layoutY="153.0" mnemonicParsing="false" onAction="#pressButton" prefHeight="26.0" prefWidth="192.0" style="-fx-background-color: #067a8c;" text="Run" textOverrun="CENTER_ELLIPSIS" />
+      <Label fx:id="lb2" layoutX="307.0" layoutY="276.0" prefHeight="116.0" prefWidth="293.0" />
+      <Label fx:id="lb1" layoutX="298.0" layoutY="240.0" prefHeight="26.0" prefWidth="131.0" text="Eligible Candidates:" />
+      <Button fx:id="files" layoutX="348.0" layoutY="72.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="192.0" style="-fx-background-color: #067a8c;" text="Files" />
+   </children>
+</AnchorPane>
