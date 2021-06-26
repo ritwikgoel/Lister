@@ -14,6 +14,7 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.setWidth(686.0);
         primaryStage.setHeight(495.0);
+        primaryStage.setTitle("Lister");
 
         primaryStage.show();
     }
