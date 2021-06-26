@@ -15,7 +15,7 @@
          </font></Button>
       <Label fx:id="lb2" layoutX="299.0" layoutY="339.0" prefHeight="116.0" prefWidth="293.0" />
       <Label fx:id="lb1" layoutX="299.0" layoutY="300.0" prefHeight="26.0" prefWidth="131.0" text="Eligible Candidates:" textFill="WHITE" />
-      <Button fx:id="files" layoutX="348.0" layoutY="47.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="192.0" style="-fx-background-color: #918c7e;" text="Files">
+      <Button fx:id="files" layoutX="348.0" layoutY="47.0" mnemonicParsing="false" onAction="#filesOpen" prefHeight="26.0" prefWidth="192.0" style="-fx-background-color: #918c7e;" text="Files">
          <font>
             <Font name="System Bold" size="13.0" />
          </font></Button>
