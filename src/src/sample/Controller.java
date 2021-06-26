@@ -20,7 +20,7 @@ public class Controller {
     void pressButton(ActionEvent event) {
         System.out.println("Checkpoint");
         lb2.setText("<List of names>");
-        
+
     }
 
 }
